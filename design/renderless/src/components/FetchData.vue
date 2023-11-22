@@ -17,7 +17,7 @@ export default {
       })
       .catch(error => {
         alert('[ERROR] fetching the data', error);
-        console.log(error);
+        // console.log(error);
       });
   },
   render() {
